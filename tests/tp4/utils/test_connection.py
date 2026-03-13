@@ -2,9 +2,6 @@ import tp4.main as main
 
 
 class FakeRemote:
-    def __init__(self):
-        self.closed = False
-
     def recvline(self, timeout=2):
         return b""
 
@@ -12,7 +9,7 @@ class FakeRemote:
         pass
 
     def close(self):
-        self.closed = True
+        pass
 
 
 def test_main_connects_to_expected_server(monkeypatch):
