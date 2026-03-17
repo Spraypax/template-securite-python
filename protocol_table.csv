@@ -1,11 +1,11 @@
 === PROTOCOL TABLE ===
 Protocol,Packet count
-UDP,1
+TCP,10
+UDP,5
 
 === IP TABLE ===
 IP Address,Packet count,Protocols
-192.168.88.1,1,UDP: 1
-192.168.88.255,1,UDP: 1
+1.1.1.1,10,TCP: 10
 
 === ATTACKS DETECTED ===
 No attacks detected.
