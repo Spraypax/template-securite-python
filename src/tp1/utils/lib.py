@@ -19,7 +19,7 @@ def choose_duration() -> int:
     Retourne une durée en secondes (défaut : 60s).
     """
     try:
-        val = input("Capture duration (ex: 1h, 30min, 45s - default 1min): ").strip().lower()
+        val = input("Time : ").strip().lower()
         if not val:
             return 60
         if val.endswith("h"):
